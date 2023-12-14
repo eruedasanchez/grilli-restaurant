@@ -1,5 +1,10 @@
+import { Separator, TopBar } from "@/components/components"
+
+
 export default function Home() {
   return (
-    <div>Hola soy el home</div>
+    <>
+      <TopBar/>
+    </>
   )
 }
