@@ -1,13 +1,21 @@
+'use client';
+
 import './Navbar.css';
+import { useState } from 'react';
 import { Logo, NavbarClose, NavbarInfo, NavbarList, NavbarOpen, NavbarReserve } from '../components';
 
+
 const Navbar = () => {
+    const [openMenu, setOpenMenu] = useState(false);
+    
     return (
         <header className="header">
             <div className="container">
                 <Logo/>
-                <nav className="navbar">
-                    <NavbarClose/>
+                <nav className={`navbar ${openMenu && 'active'}`}>
+                    <NavbarClose
+                        handleButtonsMenu={() => setOpenMenu(false)}
+                    />
                     <Logo/>
                     <NavbarList/>
                     <NavbarInfo
@@ -22,9 +30,12 @@ const Navbar = () => {
                 </nav>
 
                 <NavbarReserve containedStyles="text text-"/>
-                <NavbarOpen containedStyles="line line-"/>    
+                <NavbarOpen 
+                    handleButtonsMenu={() => setOpenMenu(!openMenu)}
+                    containedStyles="line line-"
+                />    
                 
-                <div className="overlay" data-nav-toggler data-overlay></div>
+                <div className={`overlay ${openMenu && 'active'}`}></div>
             </div>
         </header>
     )

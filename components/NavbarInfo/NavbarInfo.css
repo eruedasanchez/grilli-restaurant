@@ -1,31 +1,33 @@
-.text-center{ text-align: center;}
+/*-----------------*\
+    #TYPOGRAPHY
+\*-----------------*/
 
-.navbar-title{ margin-block-end: 15px;}
-
-.body-4{ color: var(--quick-silver);}
-
-.navbar-text{ margin-block: 10px;}
-
-.sidebar-link{ transition: var(--transition-1);}
-
-.sidebar-link:is(:hover, :focus-visible){ 
-    color: var(--gold-crayola);
+.headline-1{
+    color: var(--white);
+    font-weight: var(--weight-regular);
+    line-height: var(--lineHeight-2);
+    font-size: var(--fontSize-body-1);
+    font-size: var(--fontSize-headline-1);
 }
 
-.separator{
-    margin-block: 30px;
-    margin-inline: auto;
+.body-1{
+    font-size: var(--fontSize-body-1);
+    line-height: var(--lineHeight-6);
 }
 
-.contact-label{ margin-block-end: 10px;}
+.body-4{ font-size: var(--fontSize-body-4);}
+
+/*-----------------*\
+    #REUSED STYLE
+\*-----------------*/
+
+.contact-label{ font-weight: var(--weight-bold);}
 
 .contact-number{
     color: var(--gold-crayola);
     max-width: max-content; 
-    margin-inline: auto; 
+    margin-inline: auto;  
 }
-
-.contact-number::after{ bottom: -5px;}
 
 .hover-underline{
     position: relative;   
@@ -49,3 +51,36 @@
     transform: scaleX(1);
     opacity: 1;
 }
+
+.contact-number::after{ bottom: -5px;}
+
+.text-center{ text-align: center;}
+
+/*----------------------*\
+    #NAVBAR INFO STYLES
+\*----------------------*/
+
+.navbar-title{ margin-block-end: 15px;}
+
+.navbar-text{ margin-block: 10px;}
+
+.body-4{ color: var(--quick-silver);} 
+
+.sidebar-link{ transition: var(--transition-1);}
+
+.sidebar-link:is(:hover, :focus-visible){ 
+    color: var(--gold-crayola);
+}
+
+.text-center .separator-navbar-info{
+    margin-block: 30px;
+    margin-inline: auto;
+}
+
+.contact-label{ margin-block-end: 10px;}
+
+
+
+
+
+

@@ -7,8 +7,8 @@ const NavbarItem = ({title, link} : NavBarItemProps) => {
     return (
         <li className="navbar-item">
             <Link href={`${link}`} className="d-block link navbar-link hover-underline">
-                <Separator containedStyles="separator"/>
-                <span className="d-block span">{title}</span>
+                <Separator containedStyles="navbar-item-separator"/>
+                <span className="span">{title}</span>
             </Link>
         </li>
     )

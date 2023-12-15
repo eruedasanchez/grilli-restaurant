@@ -1,3 +1,18 @@
+/*-----------------*\
+    #REUSED STYLE
+\*-----------------*/
+
+.container{ padding-inline: 16px; }
+
+/*----------------------*\
+    #NAVBAR STYLES
+\*----------------------*/
+
+/* .navbar, overlay */
+/* .overlay{ 
+    display: none;
+} */
+
 .header{
     position: fixed;
     top: 0;
@@ -45,6 +60,15 @@
     transition: var(--transition-2); 
 }
 
+.navbar.active{
+    visibility: visible;
+    transform: translateX(360px); 
+}
+
+.navbar::-webkit-scrollbar-thumb{
+    background-color: var(--white-alpha-10); 
+}
+
 .overlay{
     position: fixed;
     top: 0;
@@ -61,4 +85,4 @@
 .overlay.active{
     opacity: 1;
     pointer-events: all; 
-} 
+}  

@@ -10,12 +10,12 @@ const NavbarInfo = ({title, location, city, schedule, email, contact, phone} : N
             <p className={`${forum.className} headline-1 navbar-title`}>{title}</p>
             <address className="body-4">{location} <br/> {city}</address>
             <p className="body-4 navbar-text">{schedule}</p>
-            <Link href="mailto:booking@restaurant.com" className="d-block link sidebar-link">{email}</Link>
+            <Link href={`mailto:${email}`} className="d-block link sidebar-link">{email}</Link>
 
-            <Separator containedStyles="separator"/>
+            <Separator containedStyles="separator-navbar-info"/>
 
             <p className="contact-label">{contact}</p>
-            <Link href="tel:+88123123456" className="d-block link body-1 contact-number hover-underline">{phone}</Link>
+            <Link href={`tel:${phone.split('-').join('')}`} className="d-block link body-1 contact-number hover-underline">{phone}</Link>
         </div>
     )
 }

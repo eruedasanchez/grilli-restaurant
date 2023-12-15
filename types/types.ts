@@ -1,3 +1,5 @@
+import { MouseEventHandler } from "react";
+
 export interface SeparatorProps {
     containedStyles?: string
 }
@@ -24,7 +26,11 @@ export interface NavBarInfoProps {
     phone: string
 }
 
-export interface NavbarFigureProps {
+export interface NavBarButtonsProps {
+    handleButtonsMenu: MouseEventHandler<HTMLButtonElement>
+}
+
+export interface NavbarOpenProps extends NavBarButtonsProps {
     containedStyles: string
 }
 
