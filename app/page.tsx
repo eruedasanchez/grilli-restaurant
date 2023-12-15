@@ -1,10 +1,10 @@
-import { Separator, TopBar } from "@/components/components"
-
+import { TopBar } from "@/components/components";
 
 export default function Home() {
   return (
     <>
-      <TopBar/>
+      {/* <TopBar/> */}
+      <p>cuerpo del page</p>
     </>
   )
 }

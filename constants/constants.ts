@@ -1,8 +1,9 @@
-import {locationOutline, timeOutline, callOutline, mailOutline} from 'ionicons/icons';
+import {locationOutline, timeOutline, callOutline, mailOutline, closeOutline} from 'ionicons/icons';
 
 export const ionIcons = {
     locationOutline, 
     timeOutline, 
     callOutline, 
-    mailOutline
+    mailOutline,
+    closeOutline
 }
