@@ -34,3 +34,13 @@ export interface NavbarOpenProps extends NavBarButtonsProps {
     containedStyles: string
 }
 
+export interface SliderItemProps {
+    imageUrl: string, 
+    subtitle: string, 
+    title: string, 
+    text: string
+}
+
+
+
+

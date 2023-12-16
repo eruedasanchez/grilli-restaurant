@@ -1,10 +1,11 @@
-import { TopBar } from "@/components/components";
+import { TopBar, Hero } from "@/components/components";
 
 export default function Home() {
   return (
-    <>
-      {/* <TopBar/> */}
-      <p>cuerpo del page</p>
-    </>
+    <main>
+      <article>
+        <Hero/>
+      </article>
+    </main>
   )
 }
