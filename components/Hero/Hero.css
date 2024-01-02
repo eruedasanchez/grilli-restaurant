@@ -1,8 +1,14 @@
-/* .hero{
+.hero{
     position: relative;
     padding-block: 120px;
     min-height: 100vh;
     overflow: hidden;
     z-index: 1; 
-} */
+}
+
+.text-center{ text-align: center;}
+
+
+
+
 

@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 const NavbarReserve = ({containedStyles} : NavbarFigureProps) => {
     return (
-        <Link href="/" className="d-block link btn btn-secondary">
+        <Link href="/" className="link btn btn-secondary">
             <span className={`${containedStyles}1`}>Find A Table</span>
             <span className={`${containedStyles}2`} aria-hidden="true">Find A Table</span>
         </Link>

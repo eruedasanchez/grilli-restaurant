@@ -13,7 +13,7 @@ export default function RootLayout({children} : {children: React.ReactNode}) {
     <html lang="en">
       <body className={`${dmSans.className} nav-active`}>
         <Navbar/>
-        {/* {children} */}
+        {children}
       </body>
     </html>
   )

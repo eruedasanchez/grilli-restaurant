@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const Logo = () => {
     return (
-        <Link href="/" className="d-block link logo">
+        <Link href="/" className="link logo">
             <Image
                 src='/logo.svg'
                 alt='Grilli-Logo'

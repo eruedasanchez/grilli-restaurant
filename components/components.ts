@@ -15,6 +15,7 @@ import HeroSlider from "./HeroSlider/HeroSlider";
 import SliderItem from "./SliderItem/SliderItem";
 import SliderButton from "./SliderButton/SliderButton";
 import ViewMenu from "./ViewMenu/ViewMenu";
+import Booking from "./Booking/Booking";
 
 export {
     Separator,
@@ -33,5 +34,6 @@ export {
     SliderItem,
     SliderButton,
     ViewMenu,
+    Booking,
     Footer
 }

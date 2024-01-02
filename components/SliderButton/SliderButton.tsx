@@ -1,5 +1,3 @@
-// archivo sliderButton.tsx
-
 'use client';
 
 import './SliderButton.css';
@@ -9,7 +7,7 @@ import { IonIcon } from "@ionic/react";
 const SliderButton = ({direction, icon} : SliderButtonProps) => {
     return (
         <button className={`slider-btn ${direction}`}>
-            {/* aria-label="slide to previous" */}
+            {/* tomo estos btn pero sabiendo la direccion */}
             <IonIcon 
                 icon={icon} 
                 aria-hidden="true"

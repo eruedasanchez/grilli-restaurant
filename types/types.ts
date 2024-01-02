@@ -1,5 +1,3 @@
-// archivo types.ts
-
 import { MouseEventHandler } from "react";
 
 export interface SeparatorProps {
@@ -49,7 +47,8 @@ export interface SliderItemProps {
     image: string, 
     subtitle: string, 
     title: string, 
-    text: string
+    text: string,
+    active: boolean
 }
 
 export interface SliderButtonProps { 
