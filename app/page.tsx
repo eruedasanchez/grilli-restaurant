@@ -1,4 +1,4 @@
-import { TopBar, Hero } from "@/components/components";
+import { Hero } from "@/components/components";
 
 export default function Home() {
   return (

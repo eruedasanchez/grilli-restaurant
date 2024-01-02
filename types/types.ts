@@ -1,3 +1,5 @@
+// archivo types.ts
+
 import { MouseEventHandler } from "react";
 
 export interface SeparatorProps {
@@ -9,6 +11,11 @@ export interface TopBarItemProps {
     link: boolean,
     iconName: string,
     description: string
+}
+
+export interface NavbarProps {
+    openMenu: boolean, 
+    setOpenMenu: React.Dispatch<React.SetStateAction<boolean>> 
 }
 
 export interface NavBarItemProps {
@@ -26,6 +33,10 @@ export interface NavBarInfoProps {
     phone: string
 }
 
+export interface NavbarFigureProps {
+    containedStyles: string
+}
+
 export interface NavBarButtonsProps {
     handleButtonsMenu: MouseEventHandler<HTMLButtonElement>
 }
@@ -35,11 +46,20 @@ export interface NavbarOpenProps extends NavBarButtonsProps {
 }
 
 export interface SliderItemProps {
-    imageUrl: string, 
+    image: string, 
     subtitle: string, 
     title: string, 
     text: string
 }
+
+export interface SliderButtonProps { 
+    direction: string,
+    icon: string
+}
+
+
+
+
 
 
 

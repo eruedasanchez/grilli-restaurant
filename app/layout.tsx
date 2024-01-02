@@ -1,7 +1,7 @@
-import type { Metadata } from 'next';
+import { Metadata } from 'next';
 import { dmSans } from './fonts';
 import './globals.css';
-import { Navbar, Footer } from '@/components/components';
+import { Navbar } from '@/components/components';
 
 export const metadata: Metadata = {
   title: 'Grilli Restaurant',
@@ -11,10 +11,12 @@ export const metadata: Metadata = {
 export default function RootLayout({children} : {children: React.ReactNode}) {
   return (
     <html lang="en">
-      <body className={`${dmSans.className}`}>
+      <body className={`${dmSans.className} nav-active`}>
         <Navbar/>
-        {children}
+        {/* {children} */}
       </body>
     </html>
   )
 }
+
+

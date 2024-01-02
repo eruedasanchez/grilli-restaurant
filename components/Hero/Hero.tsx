@@ -1,10 +1,15 @@
-import React from 'react'
-import { HeroSlider } from '../components';
+// archivo hero.tsx
+
+import './Hero.css';
+import { HeroSlider, SliderButton } from '../components';
+import { ionIcons } from '@/constants/constants';
 
 const Hero = () => {
     return (
         <section className="hero text-center">
-            <HeroSlider/>
+          <HeroSlider/>
+          {/* <SliderButton direction='prev' icon={ionIcons.chevronBack}/>
+          <SliderButton direction='next' icon={ionIcons.chevronForward}/> */}
         {/* <ul class="hero-slider" data-hero-slider>
           <li class="slider-item active" data-hero-slider-item>
             <div class="slider-bg">
