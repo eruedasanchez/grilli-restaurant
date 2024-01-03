@@ -61,6 +61,13 @@ export interface SliderButtonProps {
     handleSlide: (direction: string, event?: MouseEventHandler<HTMLButtonElement>) => void; 
 }
 
+export interface ServiceCardProps { 
+    cardNumber: number, 
+    cardTitle: string 
+}
+
+
+
 
 
 

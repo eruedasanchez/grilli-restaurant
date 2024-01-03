@@ -1,0 +1,23 @@
+.container{ padding-inline: 16px;}
+
+.section{
+    position: relative;
+    padding-block: var(--section-space);
+    overflow: hidden;
+    z-index: 1; 
+}
+
+.bg-black-10{ background-color: var(--smoky-black-2);}
+
+.text-center{ text-align: center;}
+
+.shape{
+    display: none;
+    position: absolute;
+    max-width: max-content;
+    z-index: -1;
+} 
+
+.service .section-title{ margin-block-end: 16px;}
+
+.service .section-text{ margin-block-end: 40px;}
