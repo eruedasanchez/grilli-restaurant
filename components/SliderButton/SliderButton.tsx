@@ -4,10 +4,12 @@ import './SliderButton.css';
 import { SliderButtonProps } from "@/types/types";
 import { IonIcon } from "@ionic/react";
 
-const SliderButton = ({direction, icon} : SliderButtonProps) => {
+const SliderButton = ({direction, icon, handleSlide} : SliderButtonProps) => {
     return (
-        <button className={`slider-btn ${direction}`}>
-            {/* tomo estos btn pero sabiendo la direccion */}
+        <button 
+            className={`slider-btn ${direction}`}
+            onClick={() => handleSlide(direction)}
+        >
             <IonIcon 
                 icon={icon} 
                 aria-hidden="true"
@@ -18,3 +20,6 @@ const SliderButton = ({direction, icon} : SliderButtonProps) => {
 }
 
 export default SliderButton;
+
+
+

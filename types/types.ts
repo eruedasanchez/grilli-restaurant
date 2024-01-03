@@ -43,6 +43,10 @@ export interface NavbarOpenProps extends NavBarButtonsProps {
     containedStyles: string
 }
 
+export interface HeroSliderProps {
+    currentSlidePosition: number
+}
+
 export interface SliderItemProps {
     image: string, 
     subtitle: string, 
@@ -53,8 +57,12 @@ export interface SliderItemProps {
 
 export interface SliderButtonProps { 
     direction: string,
-    icon: string
+    icon: string,
+    handleSlide: (direction: string, event?: MouseEventHandler<HTMLButtonElement>) => void; 
 }
+
+
+
 
 
 

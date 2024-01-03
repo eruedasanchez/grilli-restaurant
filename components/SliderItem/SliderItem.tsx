@@ -7,7 +7,6 @@ import { SliderItemProps } from "@/types/types";
 const SliderItem = ({image, subtitle, title, text, active} : SliderItemProps) => {
     return (
         <li className={`slider-item ${active ? 'active' : ''}`}>
-            {/* tomo todos estos li */}
             <div className="slider-bg">
                 <Image
                     src={image}

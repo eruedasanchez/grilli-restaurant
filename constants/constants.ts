@@ -18,3 +18,10 @@ export const ionIcons = {
     chevronForward
 }
 
+export const slides = {
+    FIRST_SLIDE: 0,
+    SECOND_SLIDE: 1,
+    THIRD_SLIDE: 2,
+    TOTAL_SLIDES: 3,
+}
+
