@@ -1,0 +1,9 @@
+.special-dish .abs-img{
+    margin-inline: auto;
+    margin-block-end: 12px;
+}
+
+.special-dish .section-text{ margin-block: 16px 40px; }
+
+.special-dish .btn{ margin-inline: auto; }
+

@@ -22,6 +22,11 @@ import Footer from "./Footer/Footer";
 import About from "./About/About";
 import AboutBanner from "./AboutBanner/AboutBanner";
 import AboutContent from "./AboutContent/AboutContent";
+import SpecialDish from "./SpecialDish/SpecialDish";
+import SpecialDishContent from "./SpecialDishContent/SpecialDishContent";
+import Menu from "./Menu/Menu";
+import MenuList from "./MenuList/MenuList";
+import MenuCard from "./MenuCard/MenuCard";
 
 export {
     Separator,
@@ -47,5 +52,10 @@ export {
     About,
     AboutBanner,
     AboutContent,
+    SpecialDish,
+    SpecialDishContent,
+    Menu,
+    MenuList,
+    MenuCard,
     Footer
 }

@@ -66,6 +66,18 @@ export interface ServiceCardProps {
     cardTitle: string 
 }
 
+export interface MenuCardProps extends ServiceCardProps {
+    activeSeasonal?: boolean,
+    activeNew?: boolean,
+    cardPrice: number,
+    cardDescription: string 
+}
+
+
+
+
+
+
 
 
 
