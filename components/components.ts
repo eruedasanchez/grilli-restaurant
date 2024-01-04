@@ -19,6 +19,9 @@ import Service from "./Service/Service";
 import ServiceList from "./ServiceList/ServiceList";
 import ServiceCard from "./ServiceCard/ServiceCard";
 import Footer from "./Footer/Footer";
+import About from "./About/About";
+import AboutBanner from "./AboutBanner/AboutBanner";
+import AboutContent from "./AboutContent/AboutContent";
 
 export {
     Separator,
@@ -41,5 +44,8 @@ export {
     Service,
     ServiceList,
     ServiceCard,
+    About,
+    AboutBanner,
+    AboutContent,
     Footer
 }
