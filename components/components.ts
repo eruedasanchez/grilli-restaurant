@@ -27,6 +27,7 @@ import SpecialDishContent from "./SpecialDishContent/SpecialDishContent";
 import Menu from "./Menu/Menu";
 import MenuList from "./MenuList/MenuList";
 import MenuCard from "./MenuCard/MenuCard";
+import Testimonials from "./Testimonials/Testimonials";
 
 export {
     Separator,
@@ -57,5 +58,6 @@ export {
     Menu,
     MenuList,
     MenuCard,
+    Testimonials,
     Footer
 }
