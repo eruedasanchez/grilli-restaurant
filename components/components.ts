@@ -37,6 +37,9 @@ import ReservationFormIconWrapper from "./ReservationFormIconWrapper/Reservation
 import Feature from "./Feature/Feature";
 import FeatureList from "./FeatureList/FeatureList";
 import FeatureItem from "./FeatureItem/FeatureItem";
+import Event from "./Event/Event";
+import EventList from "./EventList/EventList";
+import EventCard from "./EventCard/EventCard";
 
 export {
     Separator,
@@ -77,5 +80,8 @@ export {
     Feature,
     FeatureList,
     FeatureItem, 
+    Event,
+    EventList,
+    EventCard,
     Footer
 }

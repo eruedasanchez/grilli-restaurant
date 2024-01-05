@@ -70,6 +70,7 @@ export interface MenuCardProps extends ServiceCardProps {
     activeSeasonal?: boolean,
     activeNew?: boolean,
     cardPrice?: number,
+    cardDate?: string,
     cardDescription: string 
 }
 

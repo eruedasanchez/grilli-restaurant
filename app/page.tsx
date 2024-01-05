@@ -1,5 +1,6 @@
 import { 
   About, 
+  Event, 
   Feature, 
   Hero, 
   Menu, 
@@ -21,6 +22,7 @@ export default function Home() {
         <Testimonials/>
         <Reservation/>
         <Feature/>
+        <Event/>
       </article>
     </main>
   )
