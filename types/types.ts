@@ -73,6 +73,19 @@ export interface MenuCardProps extends ServiceCardProps {
     cardDescription: string 
 }
 
+export interface ReservationFormRightScheduleProps {
+    menu: string, 
+    schedule: string
+}
+
+export interface ReservationFormIconWrapperProps {
+    iconType: string, 
+    options: string[]
+}
+
+
+
+
 
 
 

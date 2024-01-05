@@ -2,6 +2,7 @@ import {
   About, 
   Hero, 
   Menu, 
+  Reservation, 
   Service, 
   SpecialDish, 
   Testimonials 
@@ -17,6 +18,7 @@ export default function Home() {
         <SpecialDish/>
         <Menu/>
         <Testimonials/>
+        <Reservation/>
       </article>
     </main>
   )

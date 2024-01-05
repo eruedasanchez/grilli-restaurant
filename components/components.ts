@@ -28,6 +28,12 @@ import Menu from "./Menu/Menu";
 import MenuList from "./MenuList/MenuList";
 import MenuCard from "./MenuCard/MenuCard";
 import Testimonials from "./Testimonials/Testimonials";
+import Reservation from "./Reservation/Reservation";
+import ReservationForm from "./ReservationForm/ReservationForm";
+import ReservationFormRight from "./ReservationFormRight/ReservationFormRight";
+import ReservationFormRightSchedule from "./ReservationFormRightSchedule/ReservationFormRightSchedule";
+import ReservationFormLeft from "./ReservationFormLeft/ReservationFormLeft";
+import ReservationFormIconWrapper from "./ReservationFormIconWrapper/ReservationFormIconWrapper";
 
 export {
     Separator,
@@ -59,5 +65,11 @@ export {
     MenuList,
     MenuCard,
     Testimonials,
+    Reservation,
+    ReservationForm,
+    ReservationFormRight,
+    ReservationFormRightSchedule,
+    ReservationFormLeft,
+    ReservationFormIconWrapper, 
     Footer
 }

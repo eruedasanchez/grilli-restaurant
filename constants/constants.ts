@@ -5,7 +5,10 @@ import {
     mailOutline, 
     closeOutline, 
     chevronBack, 
-    chevronForward
+    chevronForward,
+    chevronDown,
+    calendarClearOutline,
+    personOutline
 } from 'ionicons/icons';
 
 export const ionIcons = {
@@ -15,7 +18,10 @@ export const ionIcons = {
     mailOutline,
     closeOutline,
     chevronBack, 
-    chevronForward
+    chevronForward,
+    chevronDown,
+    calendarClearOutline,
+    personOutline
 }
 
 export const slides = {
@@ -25,3 +31,30 @@ export const slides = {
     TOTAL_SLIDES: 3,
 }
 
+export const diners = [
+    '1 Person',
+    '2 Person',
+    '3 Person',
+    '4 Person',
+    '5 Person',
+    '6 Person',
+    '7 Person'
+]
+
+export const schedules = [
+    '08 : 00 am',
+    '09 : 00 am',
+    '10 : 00 am',
+    '11 : 00 am',
+    '12 : 00 am',
+    '01 : 00 pm',
+    '02 : 00 pm',
+    '03 : 00 pm',
+    '04 : 00 pm',
+    '05 : 00 pm',
+    '06 : 00 pm',
+    '07 : 00 pm',
+    '08 : 00 pm',
+    '09 : 00 pm',
+    '10 : 00 pm',
+]
