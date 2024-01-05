@@ -34,6 +34,9 @@ import ReservationFormRight from "./ReservationFormRight/ReservationFormRight";
 import ReservationFormRightSchedule from "./ReservationFormRightSchedule/ReservationFormRightSchedule";
 import ReservationFormLeft from "./ReservationFormLeft/ReservationFormLeft";
 import ReservationFormIconWrapper from "./ReservationFormIconWrapper/ReservationFormIconWrapper";
+import Feature from "./Feature/Feature";
+import FeatureList from "./FeatureList/FeatureList";
+import FeatureItem from "./FeatureItem/FeatureItem";
 
 export {
     Separator,
@@ -70,6 +73,9 @@ export {
     ReservationFormRight,
     ReservationFormRightSchedule,
     ReservationFormLeft,
-    ReservationFormIconWrapper, 
+    ReservationFormIconWrapper,
+    Feature,
+    FeatureList,
+    FeatureItem, 
     Footer
 }
