@@ -58,3 +58,47 @@ export const schedules = [
     '09 : 00 pm',
     '10 : 00 pm',
 ]
+
+export const LINKS = {
+    company: [
+        {
+            href:'/',
+            name:'Home'
+        },
+        {
+            href:'/',
+            name:'About Us'
+        },
+        {
+            href:'/',
+            name:'Our Chefs'
+        },
+        {
+            href:'/',
+            name:'Contact'
+        }
+    ],
+    socialNetworks: [
+        {
+            href:'/',
+            name:'Facebook'
+        },
+        {
+            href:'/',
+            name:'Instagram'
+        },
+        {
+            href:'/',
+            name:'Twitter'
+        },
+        {
+            href:'/',
+            name:'Youtube'
+        },
+        {
+            href:'/',
+            name:'Google Map'
+        }
+    ]
+}
+

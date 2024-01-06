@@ -1,6 +1,13 @@
+import { FooterBottom, FooterTop } from "../components";
+
 const Footer = () => {
     return (
-    <div>Footer</div>
+        <footer className="footer section has-bg-image text-center" style={{backgroundImage: "url('/footer-bg.jpg')"}}>
+        <div className="container">
+            <FooterTop/>
+            <FooterBottom/>
+        </div>
+    </footer>
     )
 }
 

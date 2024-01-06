@@ -84,6 +84,19 @@ export interface ReservationFormIconWrapperProps {
     options: string[]
 }
 
+export interface FooterLinkProps {
+    href: string, 
+    name: string
+}
+
+export interface FooterListProps {
+    list: FooterLinkProps[]
+}
+
+
+
+
+
 
 
 

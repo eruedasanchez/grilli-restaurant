@@ -18,7 +18,6 @@ import Booking from "./Booking/Booking";
 import Service from "./Service/Service";
 import ServiceList from "./ServiceList/ServiceList";
 import ServiceCard from "./ServiceCard/ServiceCard";
-import Footer from "./Footer/Footer";
 import About from "./About/About";
 import AboutBanner from "./AboutBanner/AboutBanner";
 import AboutContent from "./AboutContent/AboutContent";
@@ -40,6 +39,12 @@ import FeatureItem from "./FeatureItem/FeatureItem";
 import Event from "./Event/Event";
 import EventList from "./EventList/EventList";
 import EventCard from "./EventCard/EventCard";
+import Footer from "./Footer/Footer";
+import FooterTop from "./FooterTop/FooterTop";
+import FooterBrand from "./FooterBrand/FooterBrand";
+import FooterList from "./FooterList/FooterList";
+import FooterLink from "./FooterLink/FooterLink";
+import FooterBottom from "./FooterBottom/FooterBottom";
 
 export {
     Separator,
@@ -83,5 +88,14 @@ export {
     Event,
     EventList,
     EventCard,
-    Footer
+    Footer,
+    FooterTop,
+    FooterBrand, 
+    FooterList, 
+    FooterLink, 
+    FooterBottom
 }
+
+
+
+
