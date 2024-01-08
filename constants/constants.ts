@@ -8,7 +8,8 @@ import {
     chevronForward,
     chevronDown,
     calendarClearOutline,
-    personOutline
+    personOutline,
+    chevronUp
 } from 'ionicons/icons';
 
 export const ionIcons = {
@@ -21,7 +22,8 @@ export const ionIcons = {
     chevronForward,
     chevronDown,
     calendarClearOutline,
-    personOutline
+    personOutline,
+    chevronUp
 }
 
 export const slides = {

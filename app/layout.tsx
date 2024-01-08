@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import { dmSans } from './fonts';
 import './globals.css';
-import { Footer, Navbar } from '@/components/components';
+import { BackToTop, Footer, Navbar } from '@/components/components';
 
 export const metadata: Metadata = {
   title: 'Grilli Restaurant',
@@ -11,10 +11,11 @@ export const metadata: Metadata = {
 export default function RootLayout({children} : {children: React.ReactNode}) {
   return (
     <html lang="en">
-      <body className={`${dmSans.className} nav-active`}>
+      <body id='top' className={`${dmSans.className} nav-active`}>
         <Navbar/>
         {children}
         <Footer/>
+        <BackToTop/>
       </body>
     </html>
   )

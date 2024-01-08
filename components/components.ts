@@ -45,6 +45,7 @@ import FooterBrand from "./FooterBrand/FooterBrand";
 import FooterList from "./FooterList/FooterList";
 import FooterLink from "./FooterLink/FooterLink";
 import FooterBottom from "./FooterBottom/FooterBottom";
+import BackToTop from "./BackToTop/BackToTop";
 
 export {
     Separator,
@@ -93,7 +94,8 @@ export {
     FooterBrand, 
     FooterList, 
     FooterLink, 
-    FooterBottom
+    FooterBottom,
+    BackToTop
 }
 
 
