@@ -21,3 +21,10 @@
 .service .section-title{ margin-block-end: 16px;}
 
 .service .section-text{ margin-block-end: 40px;}
+
+@media (min-width: 575px){
+    .service .section-text{
+        max-width: 420px;
+        margin-inline: auto;
+    }
+}

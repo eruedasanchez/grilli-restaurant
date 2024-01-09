@@ -56,3 +56,11 @@
     background-size: contain;
     animation: rotate360 15s linear infinite;
 }
+
+@media (min-width: 575px){
+    .about .section-text{
+        max-width: 420px;
+        margin-inline: auto; 
+    }
+
+}

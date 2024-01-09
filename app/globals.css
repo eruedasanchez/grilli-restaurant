@@ -188,4 +188,15 @@ body.loaded{ overflow: overlay; }
 
 .label-2{ font-size: var(--fontSize-label-2);}
 
+@media (min-width: 575px){
+  :root{
+      /***** Typography *****/
+    --fontSize-body-2: 2rem;
+  }
+
+  .contact-number{
+    --fontSize-body-1: 3rem;
+  }
+}
+
 
