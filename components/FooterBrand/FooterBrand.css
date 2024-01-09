@@ -90,3 +90,11 @@
         grid-column: 1 / 3;
     }
 }
+
+@media (min-width: 992px){
+    .footer-brand{
+        grid-column: auto;
+        order: 1;
+        padding-block: 100px;
+    }
+}

@@ -7,3 +7,21 @@
 
 .special-dish .btn{ margin-inline: auto; }
 
+@media (min-width: 992px){
+    .special-dish{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        text-align: left;
+    }
+    
+    .special-dish .section-subtitle::after, .special-dish .btn{
+        margin-inline: 0;
+    }
+
+    .special-dish .abs-img{
+        position: absolute;
+        top: 10px;
+        left: -40px;
+        animation: move 5s linear infinite;
+    }
+}

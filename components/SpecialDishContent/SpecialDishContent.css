@@ -15,3 +15,17 @@
 
 .special-dish-content .span{ color: var(--gold-crayola);}
 
+@media (min-width: 992px){
+    .special-dish-content{ 
+        padding-inline: 50px 25px;
+    }
+    
+    .special-dish-content .container{
+        position: relative;
+    }
+
+    .special-dish-content .wrapper{
+        justify-content: flex-start;
+    }
+}
+

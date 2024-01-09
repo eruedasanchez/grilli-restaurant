@@ -1,3 +1,4 @@
+import './Footer.css';
 import { FooterBottom, FooterTop } from "../components";
 
 const Footer = () => {
@@ -12,3 +13,5 @@ const Footer = () => {
 }
 
 export default Footer;
+
+

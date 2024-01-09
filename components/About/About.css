@@ -69,3 +69,10 @@
 
     .about .contact-number{ --fontSize-body-1: 2.4rem; }
 }
+
+@media (min-width: 992px){
+    .about .container{
+        grid-template-columns: 0.7fr 1fr;
+        gap: 30px;
+    }
+}

@@ -214,4 +214,29 @@ body.loaded{ overflow: overlay; }
   } 
 }
 
+@media(min-width: 992px){ 
+  :root{ 
+      /* Spacing */
+      --section-space: 100px;
+  } 
+  
+  :is(.service, .event) .container{
+    max-width: unset;
+  }
+  
+  :is(.service, .event) .grid-list{
+      grid-template-columns: repeat(3, 1fr);
+  }
+  
+  :is(.service) .grid-list li:last-child{
+      grid-column: auto;      
+      width: 100%;
+  } 
+
+  :is(.event) .grid-list li:last-child{
+    margin-inline: auto; 
+    width: 100%;
+  } 
+}
+
 
