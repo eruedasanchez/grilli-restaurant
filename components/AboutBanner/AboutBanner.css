@@ -7,3 +7,9 @@
 
 .about-banner > .w-100{ padding-inline-start: 50px;}
 
+@media (min-width:575px){
+    .about-banner > .w-100{
+        padding-inline-start: 90px;
+    }
+}
+

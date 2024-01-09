@@ -4,3 +4,10 @@
     margin-inline: auto;
     margin-block-start: 40px;
 }  
+
+@media (min-width: 575px){
+    .event .container{
+        max-width: 420px;
+        margin-inline: auto;
+    }
+}

@@ -63,4 +63,9 @@
         margin-inline: auto; 
     }
 
+    .about .container{ gap: 80px; }
+
+    .about .abs-img-1{ width: 285px; }
+
+    .about .contact-number{ --fontSize-body-1: 2.4rem; }
 }

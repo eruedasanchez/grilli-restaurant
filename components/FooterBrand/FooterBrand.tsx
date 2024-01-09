@@ -32,7 +32,6 @@ const FooterBrand = () => {
                         aria-hidden="true"
                         className='ion-icon'
                     />
-                    {/* <ion-icon name="mail-outline" aria-hidden="true"></ion-icon> */}
                     <input type="email" name="email_address" placeholder="Your email" className="input-field"/>
                 </div>
 

@@ -23,7 +23,7 @@
 .service .section-text{ margin-block-end: 40px;}
 
 @media (min-width: 575px){
-    .service .section-text{
+    .service .container{
         max-width: 420px;
         margin-inline: auto;
     }

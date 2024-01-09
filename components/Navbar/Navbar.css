@@ -83,3 +83,14 @@
     opacity: 1;
     pointer-events: all; 
 }  
+
+@media (min-width: 575px){
+    .header{ top: 51px; }
+    
+    .header.active{ top: 0; }
+    
+    .header .btn{
+        display: block;
+        margin-inline-start: auto;
+    }
+}
