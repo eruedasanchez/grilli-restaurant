@@ -20,11 +20,21 @@
 
 .service .section-title{ margin-block-end: 16px;}
 
-.service .section-text{ margin-block-end: 40px;}
+.service .section-text{ 
+    margin-block-end: 40px;
+}
 
 @media (min-width: 575px){
     .service .container{
-        max-width: 420px;
+        min-width: 420px;
         margin-inline: auto;
     }
 }
+
+@media (min-width: 768px){
+    .service .section-text{ 
+        padding-inline: 60px;
+    }
+}
+
+

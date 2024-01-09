@@ -1,3 +1,4 @@
+import './Reservation.css';
 import { ReservationForm } from '../components';
 
 const Reservation = () => {

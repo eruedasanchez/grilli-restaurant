@@ -14,6 +14,7 @@ const SliderButton = ({direction, icon, handleSlide} : SliderButtonProps) => {
                 icon={icon} 
                 aria-hidden="true"
                 style={{'--ionicon-stroke-width': '50px'}}
+                className='ion-icon'
             />
         </button>     
     )

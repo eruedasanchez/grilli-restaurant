@@ -1,14 +1,6 @@
 import './NavbarList.css';
 import { NavbarItem } from '../components';
 
-// ver el tema de active (dejo el ejemplo abajo)
-{/* <li className="navbar-item">
-                            <a href="#home" className="navbar-link hover-underline active">
-                                <Separator/>
-                                <span className="span">Home</span>
-                            </a>
-                        </li> */}
-
 const NavbarList = () => {
     return (
         <ul className="navbar-list">
