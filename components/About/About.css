@@ -81,5 +81,17 @@
     .about{ 
         padding-block: 170px 100px;
     }
-
 }
+
+@media (min-width: 1400px){
+    .about-content{ 
+        padding-inline-end: 90px;
+    }
+    
+    .about .shape{
+        display: block;
+        top: 46%;
+        left: 0;
+    }
+}
+

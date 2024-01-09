@@ -112,3 +112,9 @@
     
     .header .btn{ margin-inline-start: 0; }
 }
+
+@media(min-width: 1400px){
+    .navbar{ 
+        margin-inline: auto;
+    }
+}

@@ -25,3 +25,24 @@
         animation: move 5s linear infinite;
     }
 }
+
+@media (min-width: 1400px){
+    .special-dish{
+        overflow: visible; 
+        position: relative; 
+    }
+    
+    .special-dish .shape{
+        display: block;
+        right: 0;
+        z-index: 1; 
+    }
+    
+    .special-dish .shape-1{ top: 45%; }
+    
+    .special-dish .shape-2{
+        bottom: 0;
+        transform: translateY(50%);
+        width: max-content;
+    } 
+}
