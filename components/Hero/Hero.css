@@ -38,3 +38,15 @@
         color: var(--black);
     }
 }
+
+@media (min-width:1200px) {
+    .hero{ 
+        height: 880px;
+    }
+    
+    .hero-btn{
+        bottom: 50px;
+        right: 50px;
+        transform: scale(1); 
+    }
+}

@@ -32,3 +32,26 @@
     opacity: 1;
 }
 
+@media (min-width: 1200px){
+    .navbar-item{ 
+        border-block-start: none;
+    }
+
+    .navbar-link:is(:hover, :focus-visible, .active) .span{
+        transform: unset; 
+    }
+    
+    .navbar-link{
+        font-weight: var(--weight-bold);
+        letter-spacing: var(--letterSpacing-1);
+    }
+    
+    .navbar-link::after{ display: block; }
+    
+    .navbar-link.active::after{
+        transform: scaleX(1);
+        opacity: 1; 
+    }
+
+    /* ccorregir aca */
+}

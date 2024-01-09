@@ -76,4 +76,13 @@
     }
 }
 
+@media (min-width:1200px){
+    .menu .grid-list{
+        gap: 55px 200px;
+        margin-block-end: 55px; 
+    }    
+}
+
+
+
 

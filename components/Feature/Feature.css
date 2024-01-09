@@ -1,1 +1,7 @@
 .features .section-title{ margin-block-end: 40px; }
+
+@media (min-width: 1200px) {
+    .features .grid-list{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

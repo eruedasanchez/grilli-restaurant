@@ -95,3 +95,20 @@
     }
 }
 
+@media (min-width: 1200px){
+    .nav-open-btn, .navbar > *:not(.navbar-list), .header .overlay{
+        display: none;
+    }
+    
+    .header .container{ max-width: unset; }
+    
+    .navbar, .navbar.active, .navbar-list{ all: unset; }
+    
+    .navbar, .navbar.active{ 
+        margin-inline: auto 20px;
+    }
+    
+    .navbar .separator{ display: none; }
+    
+    .header .btn{ margin-inline-start: 0; }
+}

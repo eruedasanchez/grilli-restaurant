@@ -49,3 +49,14 @@
         margin-inline-end: auto;
     } 
 }
+
+@media (min-width: 1200px){
+    .topbar .container{ 
+        max-width: unset;
+    }
+    
+    .topbar .separator{ 
+        display: block;
+    }
+}
+

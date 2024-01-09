@@ -8,3 +8,10 @@
         margin-inline: 30px;  
     }
 }
+
+@media (min-width: 1200px){
+    .navbar-list{
+        display: flex;
+        gap: 30px;
+    }
+}

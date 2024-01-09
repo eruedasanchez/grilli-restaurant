@@ -239,4 +239,17 @@ body.loaded{ overflow: overlay; }
   } 
 }
 
+@media(min-width: 1200px){
+  :root{ 
+      /* Typography */
+      --fontSize-title-2: 2.5rem;
+  } 
+  
+  .container, :is(.service, .event) .container{
+    max-width: 1200px;
+    width: 100%;
+    margin-inline: auto;
+  } 
+}
+
 
